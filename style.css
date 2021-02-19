@@ -7,10 +7,21 @@
     font-family: sans-serif;
     font-weight: 400;
     color: white;
+    position:relative;
+
 }
 body{
     margin: 0px;
     background-color: whitesmoke;
+}
+.origami:hover{
+    transform:scale(1.2);
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: rgb(79, 39, 153);
 }
 .grid{
     display:flex;
@@ -21,14 +32,34 @@ body{
     flex-wrap: wrap;
     border:2px solid black;
     border-radius: 50px;
+     
 }
 
 .origami{
    
     border-radius: 20 px;
-   
     padding: 30px;
     margin: 25px;
     width:310px;
     font-family:fantasy;
+    position:relative;
+}
+.bodyimg{
+    position:relative;
+
+}
+.textblock{
+    position:absolute;
+    bottom:120px;
+    right: 220px;
+    left: 220px;
+    color: whitesmoke;
+    top: 220px;
+}
+.heading{
+display:flex;
+position: absolute;
+top: 70px;
+left: 450px;
+color: white;
 }
